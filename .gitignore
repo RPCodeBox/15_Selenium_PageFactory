@@ -1,0 +1,21 @@
+
+# testNG
+test-output/
+
+#Maven
+/target/
+
+# eclipse project file
+.settings/
+.classpath
+.project
+
+# Java related
+/lib/
+/bin/
+
+# Debug
+debug.log
+
+# Git
+gitignore
