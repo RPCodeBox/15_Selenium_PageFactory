@@ -7,11 +7,8 @@ test-output/
 
 # eclipse project file
 .settings/
-.classpath
-.project
 
 # Java related
-/lib/
 /bin/
 
 # Debug
