@@ -7,12 +7,16 @@ test-output/
 
 # eclipse project file
 .settings/
+.classpath
+target/
 
 # Java related
 /bin/
+/lib/
 
 # Debug
 debug.log
 
 # Git
 gitignore
+
