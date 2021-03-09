@@ -1,10 +1,6 @@
 package com.AutomationPractice;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
-
+import org.testng.annotations.*;
 import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.WebDriver;
@@ -20,7 +16,7 @@ public class Automation_Practice {
 
 	@Parameters("Browser")
 	@BeforeTest // Setup browser
-	public void setUp(@Optional("Firefox") String Browser) {
+	public void setUp(@Optional("Chrome") String Browser) {
 		driver = Utility.SetBrowser(Browser);
 	}
 

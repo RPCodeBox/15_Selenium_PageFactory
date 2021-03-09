@@ -25,12 +25,12 @@ public class Practice_POM {
 		utility.highLightElement(passwd);
 		passwd.sendKeys("testuser1");
 		utility.highLightElement(SubmitLogin);
-		SubmitLogin.click();
+		//SubmitLogin.click();
 
-		WebElement SignOut = driver.findElement(By.linkText("Sign out"));
-		if (SignOut.isDisplayed()) {
-			utility.highLightElement(SignOut);
-			SignOut.click();
+		//WebElement SignOut = driver.findElement(By.linkText("Sign out"));
+		if (SignIn.isDisplayed()) {
+			//utility.highLightElement(SignOut);
+			//SignOut.click();
 			Reporter.log("POM_Lib.UserLogin: Page valid after login<BR>");
 			return true;
 		} else {

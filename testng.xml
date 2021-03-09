@@ -3,8 +3,8 @@
 <suite name="Suite">
 	<test thread-count="0" name="Test">
 		<classes>
-			<class name="POM_Code.NewTest" />
+			<class name="com.AutomationPractice.Automation_Practice" />
 		</classes>
 	</test> <!-- Test -->
-	<parameter name="Browser" value="Firefox" />
+	<parameter name="Browser" value="Chrome" />
 </suite> <!-- Suite -->
